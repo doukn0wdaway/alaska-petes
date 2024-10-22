@@ -1,0 +1,15 @@
+.pagesWrapper{
+  .burgerIcon{
+    &:hover{
+      path{
+        transition: all 0.3s ease;
+        fill: #933333;
+        stroke: #e6bb63;
+      }
+      rect{  
+        transition: all 0.3s ease;
+        fill: #e6bb63;
+      }
+    }   
+  }
+}
